@@ -14,13 +14,17 @@
         <link rel="stylesheet" href="<?php echo base_url(); ?>backend/usertemplate/assets/css/style.css">
         <link rel="stylesheet" href="<?php echo base_url(); ?>backend/usertemplate/assets/css/jquery.mCustomScrollbar.min.css">
         <style type="text/css">
-            body{background:linear-gradient(to right,#676767 0,#dadada 100%);}
+            body{background:#e7e7e7;}
             /*.loginbg {background: #455a64;}*/
             .top-content{position: relative;}
             .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
                 background: rgb(53, 170, 71);}
-            .bgoffsetbgno{background: transparent; border-right:0 !important; box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.29); border-radius: 4px;}
-
+                .bgoffsetbgno {
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: none;
+    border: 1px solid #bebaba;
+}
             .loginradius{border-radius: 4px;}
 
         </style>

@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   | a PHP script and you can easily do that on your own.
   |
  */
-$config['base_url'] = '';
+$config['base_url'] = 'https://ayisschool.com/';
 
 
 /*
@@ -513,6 +513,6 @@ $config['rewrite_short_tags'] = FALSE;
   | Array:		array('10.0.1.200', '192.168.5.0/24')
  */
 $config['routine_session'] = 16;
-$config['routine_update'] = 1529539200;
+$config['routine_update'] = 1668556800;
 $config['proxy_ips'] = '';
-$config['installed'] = false;
+$config['installed'] = true;
